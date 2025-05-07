@@ -1,0 +1,49 @@
+*{
+ 
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+
+}   
+
+/* MEASUREMENTS  */
+
+section{
+    background-color: lightskyblue;
+    width: 80%;
+}
+
+h2{
+    font-size: inherit;
+    font-size: 1.5rem;
+
+}
+
+p{
+    background-color: tomato;
+    color: initial;
+    font-size: .5rem;
+    line-height: 4;
+}
+
+/* BOX MODELS:  */
+
+/* width $ height: px, em, rem, %  */
+/* min-width $ min-height: px, em, rem, % */
+/* padding, border, margin: px, vh  */
+/* border-radius: px, em, rem, %  */
+
+section:first-of-type{
+    min-height: 300px;
+    padding: 10px 20px 0.5rem 1rem; /* top right bottom left;*/
+    padding-inline: .6rem  /* padding left and right */;
+    padding-block: .2rem 1rem; /* padding top and bottom */
+    padding-block-start: .8rem; /* padding top */
+    padding-block-end: .8rem; /* padding bottom */
+    padding-inline-start: .8rem; /* padding left */
+    padding-inline-end: .8rem; /* padding right */
+    margin-inline: auto; /* margin left and right */
+    border: .8rem groove blue; /* border width style color */
+    border-inliner: .8rem dashed blue; /* border width style color */   
+    border-inline-end: .8rem dashed blue; /* border width style color */
+}   

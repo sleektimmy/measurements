@@ -1,0 +1,53 @@
+/* COLOR PROPERTIES  */
+/* 
+COLOR:
+
+- COLOR NAME
+- RGB RED, GREEN, BLUE 
+- HEXADECIMAL (BASE 16. 0-9,A-F) */
+
+*{
+ 
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: red; /* default color */
+    color: rgb(129, 8, 8); /* rgb color */
+    color: rgb(255, 0, 255); /* rgb color */
+    color: rgb(255, 255, 0); /* rgb color */
+    color: rgb(220, 220, 220); /* rgb color */
+    color: #FF0000; /* hex color */
+    color: #00ff00; /* hex color */
+}    
+
+body{
+/*         
+    background-image: linear-gradient(to right, green, blue); /* gradient color */
+    background-image: linear-gradient(to left, green 70%, blue 70%); /* gradient color */
+    background-image: linear-gradient(to top, green 70%, blue 70%); /* gradient color */
+    background-image: linear-gradient(to bottom, green 70%, blue 70%); /* gradient color */
+    background-image: linear-gradient(to top right, green 70%, blue 70%); /* gradient color */
+    background-image: linear-gradient(to top left, green 70%, blue 70%); /* gradient color */
+    background-image: linear-gradient(60deg, green 70%, blue 70%); //* gradient color - 60 degrees */
+    background-image: linear-gradient(180deg, green 70%, blue 70%); //* gradient color - 180 degrees */
+    background-image: linear-gradient(90deg, green 70%, blue 70%); //* gradient color - 90 degrees */
+    background-image: linear-gradient(90deg, green 70%, blue 70%); /gradient color - 90 degrees */
+    background-image: radial-gradient(circle, green 20%, blue 20%); /* radial gradient color */
+    background-image: conic-gradient(green 20%, blue 20%,red 10%,
+    yellow 20%,
+    orange 20%); /* conic gradient color */
+}    
+
+h2{
+    background-image: repeating-linear-gradient(green 30%, blue 70%);
+     color: transparent;
+     height: 200px;
+     font-size: 100px;
+     background-clip: text;
+}
+
+/* MEASUREMENTS  */
+
+
+
